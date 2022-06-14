@@ -1,0 +1,125 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(21, 21, 139);
+}
+header{
+    background-color: rgb(9, 9, 61);
+    padding: 16px 30px ;
+    display: flex;
+    justify-content: space-between;
+    }
+.bts {
+    font-size: 36px;
+    color: rgb(255, 255, 5);
+    font-weight: 900;
+    margin-left: 300px;
+     
+    
+} 
+.navigation{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    gap: 15px;
+   
+    
+}
+.navigation a{
+     padding: 15px;
+     font-weight: 900;
+     cursor: pointer;
+}
+.navigation a:hover{
+   color: white;
+   background-color: rgb(255, 255, 5);
+
+}
+
+.joker{
+    width: 100%;
+}
+.hero {
+ position: relative;
+}
+.wallpapers {
+    position: absolute;
+    background-color: rgb(9, 9, 61,.7);
+    top: 30%;
+    left: 20%;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 10%;    
+ 
+   }
+.wallpapers h2{
+    font-style: italic;
+   }
+   .designs{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 40px;
+    display: flex;
+    column-gap: 100px;
+   }
+  
+   .type{
+    color: rgb(255, 255, 5);
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 20px;
+   
+    
+   }
+   .type2{
+    color: rgb(255, 255, 5);
+    font-size: 40px;
+    font-weight: 900;
+    margin-right: 20px;
+   }
+   .points{
+       color: white;
+       font-size: 20px;
+       font-weight: 100;
+    
+   }
+  
+   .spider{
+       border-radius: 5px;
+       width: 400px;
+       
+
+   }
+   .designs2{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 40px;
+    display: flex;
+    column-gap: 100px;
+    
+   }
+ 
+   .thanos{
+    border-radius: 5px;
+    width: 400px;
+    
+
+}
+   .bottom{
+       display: flex;
+       justify-content: space-between;
+       flex-direction: row;
+       padding: 30px;
+       background-color: rgb(9, 9, 61);
+       color: white;
+   }
+   .bottom h3{
+       font-family: cursive;
+       font-weight: 100;
+       font-size: 15px;
+       font-style: italic;
+   }
